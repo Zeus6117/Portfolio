@@ -59,6 +59,11 @@ header nav ul li a:hover {
     text-shadow: none;
 }
 
+.intro {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .intro p {
     line-height: 1.5;
     color: var(--tertiary-color);
@@ -77,6 +82,7 @@ header nav ul li a:hover {
   section {
     padding: 10 px;
   }
+
   .section-title {
     font-size: 48px;
     border-bottom: 5px dashed;
@@ -106,10 +112,6 @@ background-color: rgba(0, 0, 0, 0.25);
   
   .border {
       border-color: var(--primary-color);
-  }
-
-  .flex-row {
-      display: flex;
   }
 
   .profile-image {
